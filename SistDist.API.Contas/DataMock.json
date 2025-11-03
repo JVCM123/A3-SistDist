@@ -1,0 +1,14 @@
+[
+  {
+    "Id": "EACCF393-9040-4DBE-B504-8601CC997AA5",
+    "Saldo": 1500.00,
+    "Limite": 5000.50,
+    "Ativa": true
+  },
+  {
+    "Id": "81ED7570-72E7-41C5-B90B-59377AB7FF42",
+    "Saldo": 1500.00,
+    "Limite": 5000.50,
+    "Ativa": true
+  }
+]
