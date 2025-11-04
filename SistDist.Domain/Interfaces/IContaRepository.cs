@@ -4,6 +4,7 @@ namespace SistDist.Domain.Interfaces
 {
     public interface IContaRepository
     {
-        Task<IEnumerable<Conta>> GetContas();
+        Task<IEnumerable<Conta>> Get();
+        Task<Conta> GetById(Guid id);
     }
 }

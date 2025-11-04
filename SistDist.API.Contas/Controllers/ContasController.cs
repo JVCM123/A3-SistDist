@@ -18,7 +18,7 @@ namespace SistDist.API.Contas.Controllers
         [HttpGet("GetContas")]
         public async Task<IEnumerable<Conta>> Get()
         {
-            return await _contaRepository.GetContas();
+            return await _contaRepository.Get();
         }
     }
 }

@@ -11,9 +11,25 @@ namespace SistDist.API.Transferencias.Repository
         public Task<IEnumerable<Transferencia>> Get()
         {
             var jsonData = File.ReadAllText(_path);
-            var contas = JsonSerializer.Deserialize<IEnumerable<Transferencia>>(jsonData);
+            var transferencias = JsonSerializer.Deserialize<IEnumerable<Transferencia>>(jsonData);
 
-            return Task.FromResult(contas);
+            return Task.FromResult(transferencias);
+        }
+
+        public async Task<IEnumerable<Transferencia>> GetByDestinatario(Guid contaDestinatarioId)
+        {
+            var jsonData = File.ReadAllText(_path);
+            var transferencias = JsonSerializer.Deserialize<IEnumerable<Transferencia>>(jsonData);
+
+            return transferencias.Where(t => t.DestinatarioId == contaDestinatarioId);
+        }
+
+        public async Task<IEnumerable<Transferencia>> GetByRemetente(Guid contaRemetenteId)
+        {
+            var jsonData = File.ReadAllText(_path);
+            var transferencias = JsonSerializer.Deserialize<IEnumerable<Transferencia>>(jsonData);
+
+            return transferencias.Where(t => t.RemetenteId == contaRemetenteId);
         }
     }
 }

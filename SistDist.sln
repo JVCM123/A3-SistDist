@@ -12,6 +12,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SistDist.Domain", "SistDist
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SistDist.API.Transferencias", "SistDist.API.Transferencias\SistDist.API.Transferencias.csproj", "{0A2A2512-05C6-432A-8A0A-D8EDED7AEFFE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SistDist.API.Usuarios", "SistDist.API.Usuarios\SistDist.API.Usuarios.csproj", "{7093FCF5-98CE-4239-B033-5ACF1B97CE60}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -30,6 +32,10 @@ Global
 		{0A2A2512-05C6-432A-8A0A-D8EDED7AEFFE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0A2A2512-05C6-432A-8A0A-D8EDED7AEFFE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0A2A2512-05C6-432A-8A0A-D8EDED7AEFFE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7093FCF5-98CE-4239-B033-5ACF1B97CE60}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7093FCF5-98CE-4239-B033-5ACF1B97CE60}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7093FCF5-98CE-4239-B033-5ACF1B97CE60}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7093FCF5-98CE-4239-B033-5ACF1B97CE60}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
